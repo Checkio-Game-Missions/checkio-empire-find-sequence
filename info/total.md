@@ -1,5 +1,4 @@
-Squad formation should be linear and strict.
-Let's train our troops to hold a line. But first we need to recognize this line.
+Let's upgrade our troop line recognize algorithms.
 
 You are given a matrix of NxN.
 You should check if there is a sequence of 4 or more matching digits.
