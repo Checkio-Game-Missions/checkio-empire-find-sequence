@@ -1,4 +1,4 @@
-Let's upgrade our troop line recognize algorithms.
+Our troop line recognition algorithms need an upgrade if we're to gain an advantage over the enemy.
 
 You are given a matrix of NxN.
 You should check if there is a sequence of 4 or more matching digits.
@@ -43,8 +43,7 @@ has_sequence([
 ```
 **How it is used:**
 
-This concept is useful for games where you need to detect various lines of the same elements (match 3 games for example).
-This algorithm can be used for basic pattern recognition.
+This concept is useful for basic pattern recognition, and in games where you need to detect various lines similar elements (match 3 games for example).
 
 **Precondition:**
 
