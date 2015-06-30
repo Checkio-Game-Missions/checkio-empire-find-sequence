@@ -1,4 +1,4 @@
-from checkio_referee import RefereeBase
+from checkio_referee import RefereeBase, ENV_NAME
 
 
 import settings_env
@@ -10,3 +10,6 @@ class Referee(RefereeBase):
     ENVIRONMENTS = settings_env.ENVIRONMENTS
 
     DEFAULT_FUNCTION_NAME = "has_sequence"
+    FUNCTION_NAMES = {
+        ENV_NAME.JS_NODE: "hasSequence"
+    }
